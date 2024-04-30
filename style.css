@@ -37,7 +37,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #ACBEBE;
+    color: #f4f4ef;
     transition: 1s;
 }
 
@@ -50,6 +50,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 46px;
     justify-content: space-between;
+    padding-bottom: 36px;
 }
 
 .picture {
@@ -65,19 +66,19 @@ a:hover {
 .title1 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #ACBEBE;
+    color: #f4f4ef;
 }
 
 .description1 {
     font-size: 1.3em;
     padding: 10px 0;
-    color: #ACBEBE;
+    color: #f4f4ef;
     opacity: 70%;
 }
 
 button {
     background-color: #A01D26;
-    color: #ACBEBE;
+    color: #f4f4ef;
     padding: 10px;
     border-radius: 95%;
     transition: 1s;
@@ -85,6 +86,104 @@ button {
 }
 
 button:hover {
-    background-color: #ACBEBE;
+    background-color: #f4f4ef;
     color: #A01D26;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 46px;
+    background-color: #f4f4ef;
+}
+
+.title2 {
+    text-align: center;
+    padding-bottom: 36px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #A01D26
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.about {
+    color: #A01D26;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.second-section {
+    background-color: #ACBEBE;
+    padding: 50px 100px;
+}
+
+.quote {
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    color: #20232A;
+    text-align: center;
+}
+
+.author {
+    font-size: 2em;
+    color: #20232A;
+    text-align: center;
+}
+
+.third-section {
+    background-color: #f4f4ef;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color:#ACBEBE;
+    padding: 16px;
+    color:#A01D26;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.title3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description3 {
+    opacity: 60%;
+}
+
+.card button {
+    flex-shrink: 0;
+}
+
+.footer {
+    background-color: #20232A;
+    height: 72px;
+    color:#f4f4ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
